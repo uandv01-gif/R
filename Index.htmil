@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Online Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #1ebe5d;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Shop</h1>
+
+    <div class="card">
+        <h2>AL DOST RLS</h2>
+        <p><b>Model:</b> 2019</p>
+        <p><b>Price:</b> ₹4,99,000</p>
+        <p><b>KM Driven:</b> 1,71,300</p>
+
+        <a class="btn" 
+           href="https://wa.me/919964828536?text=Hi%20I%20am%20interested%20in%20AL%20DOST%202019%20Model" 
+           target="_blank">
+           Order on WhatsApp
+        </a>
+    </div>
+
+</body>
+</html>
